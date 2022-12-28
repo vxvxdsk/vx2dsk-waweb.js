@@ -20,13 +20,13 @@ global.APIKeys = {
 // Other
 global.mess = (type, m) => {
     let msg = {
-        owner: 'Perintah ini hanya dapat digunakan oleh Owner!',
-        group: 'Perintah ini hanya dapat digunakan di group!',
-        private: 'Perintah ini hanya dapat digunakan di private chat!',
-        admin: 'Perintah ini hanya dapat digunakan oleh admin group!',
-        botAdmin: 'Bot bukan admin, tidak dapat mengakses fitur tersebut',
-        bot: 'Fitur ini hanya dapat diakses oleh Bot',
-        dead: 'Fitur ini sedang dimatikan!',
+        owner: 'لا يمكن استخدام هذا الأمر إلا من قبل المالك!',
+        group: 'لا يمكن استخدام هذا الأمر إلا في مجموعات!',
+        private: 'لا يمكن استخدام هذا الأمر إلا في الدردشة الخاصة!',
+        admin: 'للمشرف فقط!',
+        botAdmin: 'أحتاج أن أصبح مشرفا لتفعيل الميزة',
+        bot: 'ْ',
+        dead: 'هذه الميزة معطلة حاليا!',
         media: 'Reply media',
         error: "No Results Found"
     }[type]
@@ -37,10 +37,10 @@ global.options = {
     mute: false,
     public: true
 }
-global.owner = ["6288292024190","6285784918313"]
-global.sessionName = "hisoka"
-global.packname = "hisoka-waweb.js"
-global.author = "Dika Ardnt."
+global.owner = ["212713248554","212713248554"]
+global.sessionName = "vxvxdsk"
+global.packname = "ْ"
+global.author = "𝘷𝘹𝘷𝘹𝙙𝙨𝙠៹."
 
 
 function nocache(module, cb = () => {}) {
