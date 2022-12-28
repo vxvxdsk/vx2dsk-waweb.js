@@ -27,7 +27,7 @@ module.exports = {
                 teks += `│\n`
                 teks += `└───────⭓\n\n`
             }
-            let media = await MessageMedia.fromUrl("https://camo.githubusercontent.com/7ccd7d67ce243f1356a3aec3b96725231ea54253028390711ba30c7203e4b6e4/68747470733a2f2f74656c656772612e70682f66696c652f3039636330393831636366303737353464306166362e6a7067", { unsafeMime: true })
+            let media = await MessageMedia.fromUrl("https://raw.githubusercontent.com/vxvxdsk/ti/main/vxvxdsk-20221228-0001.jpg", { unsafeMime: true })
             hisoka.sendMessage(m.from, media, { caption: teks, quotedMessageId: m.id._serialized })
         }
     }
