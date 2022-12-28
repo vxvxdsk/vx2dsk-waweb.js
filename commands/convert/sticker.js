@@ -1,6 +1,6 @@
 module.exports = {
     name: "sticker",
-    alias: ["stiker","setiker","sgif","s"],
+    alias: ["sticker","","","s"],
     desc: "Convert Image or Video To Sticker",
     type: "convert",
     start: async(hisoka, m, { mime, quoted }) => {
